@@ -1,4 +1,6 @@
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
+
+remote_theme: daattali/beautiful-jekyll
 
 plugins:
   - jekyll-github-metadata
