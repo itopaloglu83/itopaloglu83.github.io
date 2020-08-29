@@ -1,6 +1,6 @@
 ## Welcome!
 
-Here's a list of my GitHub repositories.
+My name is Ihsan Topaloglu and here's a list of my GitHub repositories.
 
 | Repository | Description |
 | ---------- | ----------- |
