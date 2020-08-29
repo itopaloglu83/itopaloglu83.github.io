@@ -3,9 +3,9 @@
 You can use the [editor on GitHub](https://github.com/itopaloglu83/itopaloglu83.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 {% for repository in site.github.public_repositories %}
-  <a href='{{ repository.html_url }}'>
-    {{ repository.name }}
-  </a>
+
+  * [{{ repository.name }}]({{ repository.html_url }})
+
 {% endfor %}
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
