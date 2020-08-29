@@ -2,7 +2,9 @@
 layout: default
 ---
 
-Here's a list of my GitHub repositories.
+# Hello, welcome!
+
+My name is Ihsan Topaloglu and here's a list of my GitHub repositories.
 
 | Repository | Description | Homepage |
 | :--------- | :---------- | :------- |
