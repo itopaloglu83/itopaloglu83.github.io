@@ -2,13 +2,14 @@ name: Scheduled Builds
 
 on:
   schedule:
-    - cron: '10 5 * * *'
+  - cron: '20 5 * * *'
 
 jobs:
   api:
+    name: Request Build on GitHub Pages
     runs-on: ubuntu-latest
     steps:
-    - name: request
-      uses: wei/curl@master
-      with:
-        args: 'curl -X POST -H "Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}" -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/itopaloglu83/itopaloglu83.github.io/pages/builds'
+      - name: curl
+        uses: wei/curl@master
+        with:
+          args: '-X POST -H "Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}" -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/itopaloglu83/itopaloglu83.github.io/pages/builds'
