@@ -2,6 +2,8 @@
 
 My name is Ihsan Topaloglu and here's a list of my GitHub repositories.
 
+![Scheduled Builds](https://github.com/itopaloglu83/itopaloglu83.github.io/workflows/Scheduled%20Builds/badge.svg)
+
 | Repository | Description |
 | ---------- | ----------- |
 |            |             |
